@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,7 +12,7 @@ main {
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
 }
@@ -40,7 +40,7 @@ a:hover {
 
 h1 {
   display: inline-block;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 70px;
   font-weight: 500;
   padding: 80px 20px 40px 20px;
@@ -51,7 +51,7 @@ h1 {
 
 h2 {
   display: inline-block;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
@@ -60,7 +60,7 @@ h2 {
 
 h3 {
   display: inline-block;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
   line-height: 45px;
   text-align: left;
@@ -69,22 +69,6 @@ h3 {
 iframe {
   border: 0px;
   border-width: 0px;
-}
-
-input[type=text], textarea {
-  background-color: #fff;
-  width: 100%;
-  border: 2px solid #ddd;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  box-sizing: border-box;
-  padding: 20px;
-  margin-bottom: 15px;
-  font-size: 15px;
-  font-family: Roboto, sans-serif;
-  position: relative;
-  resize: vertical;
 }
 
 ul, ol {
@@ -122,7 +106,7 @@ ul, ol {
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 30px 0px 10px 0px;
   outline: 0;
   padding: 15px 35px;
@@ -169,6 +153,15 @@ ul, ol {
 }
 
 .column4 {
+  background-image: url(../img/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+}
+
+.column5 {
   background-image: url(../img/image1.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -353,6 +346,22 @@ ul, ol {
   content: "";
   display: table;
   clear: both;
+}
+
+.rowsp2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowsp3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowsp2 {
+  display: none;
 }
 
 .sidenav {
