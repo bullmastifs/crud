@@ -89,6 +89,9 @@ input[type=text], textarea {
 
 ul, ol {
   padding: 0px;
+  width: 20%;
+  margin: auto;
+  text-align: left;
 }
 
 .container-text {
@@ -396,6 +399,10 @@ ul, ol {
 }
 
 @media screen and (max-width: 720px) {
+  ul, ol {
+    padding-left: 32px;
+    width: 100%;
+  }
   h1 {
     font-size: 50px;
     line-height: 55px;
