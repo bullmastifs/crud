@@ -404,7 +404,7 @@ ul, ol {
     width: 100%;
   }
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 55px;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -449,7 +449,7 @@ ul, ol {
 @media screen and (max-height: 450px) {
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .column1,
