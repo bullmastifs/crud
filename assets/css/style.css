@@ -52,7 +52,7 @@ h1 {
 h2 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 52px;
   text-align: center;
@@ -62,7 +62,7 @@ h2 {
 h3 {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 45px;
   text-align: left;
@@ -74,14 +74,14 @@ iframe {
 }
 
 ul, ol {
-  padding: 0px;
-  width: 20%;
-  margin: auto;
+  padding: 20px;
+  width: 40%;
+  margin: 0;
   text-align: left;
 }
 
 .container-text {
-  text-align: center;
+  text-align: justify;
   display: block;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -118,7 +118,7 @@ ul, ol {
 
 .button-large-light:hover {
   background-color: #000;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #fff;
   transition: 0.3s;
 }
@@ -256,6 +256,7 @@ ul, ol {
   display: block;
   margin: 70px 10% 70px 10%;
   position: relative;
+  text-align: justify;
 }
 
 .col-left {
@@ -263,6 +264,7 @@ ul, ol {
   display: block;
   margin: 70px 10% 70px 10%;
   position: relative;
+  text-align: justify;
 }
 
 .div-one-column {
@@ -407,6 +409,24 @@ ul, ol {
   width: 800px;
   margin: 0 auto;
   position: relative;
+}
+
+@media screen and (min-width: 1680px) {
+  .col-right {
+  text-align: left;
+  display: block;
+  margin: 70px 42% 70px 10%;
+  position: relative;
+  text-align: justify;
+}
+
+.col-left {
+  text-align: left;
+  display: block;
+  margin: 70px 10% 70px 42%;
+  position: relative;
+  text-align: justify;
+}
 }
 
 @media screen and (max-width: 720px) {
